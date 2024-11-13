@@ -1,0 +1,29 @@
+#button-component {
+    display: inline-block;
+    padding: 6px 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #21abcd;
+    border-radius: 6px;
+}
+#button-component:hover {
+    color: #fff!important;
+    opacity: .8;
+    text-decoration: none;
+    cursor: pointer;
+}
+#button-component.primary {
+    background-color: #21abcd;
+}
+#button-component.danger {
+    background-color: #ff2052;
+}
+#button-component.warning {
+    background-color: #cb9f00;
+}
+#button-component.success {
+    background-color: #006b3c;
+}
+#button-component.secondary {
+    background-color: #a9a9a9;
+}
